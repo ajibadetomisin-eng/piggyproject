@@ -7,7 +7,10 @@
 	font-family: "Plus Jakarta Sans", sans-serif;
 }
 header {
-	background-color: #f2f7f8;
+	background-color: #121b2d;
+}
+.logo {
+	color: white;
 }
 
 nav {
@@ -26,6 +29,9 @@ nav {
 .menu-list {
 	display: flex;
 	gap: 2em;
+}
+.menu-list li a {
+	color: white;
 }
 .btn {
 	padding: 12px 18px;
@@ -69,6 +75,7 @@ nav {
 	.fa-bars {
 		display: block;
 		font-size: 2em;
+		color: white;
 	}
 	nav {
 		justify-content: space-between;
