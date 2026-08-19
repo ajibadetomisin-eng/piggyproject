@@ -76,18 +76,16 @@ nav {
 	}
 }
 
-.hero-sect {
-	/* border: 2px solid black; */
-}
+
 .wrapper {
-	/* border: 2px solid red; */
+
 	display: flex;
 	justify-content: space-evenly;
 	padding: 10px;
 	align-items: center;
 }
 .hero-header {
-	/* border: 2px solid red; */
+	
 	width: 40%;
 	margin: 100px auto;
 }
@@ -95,17 +93,11 @@ nav {
 	font-weight: 900;
 	text-align: left;
 	font-size: 3em;
-	/* padding: 2rem 1rem; */
-	/* width: 55%; */
-	/* display: flex; */
-	/* flex-wrap: wrap; */
-	/* border: 2px solid crimson; */
-	/* width: 0%; */
+	
 }
 .hero-text {
 	padding: 20px;
-	/* border: 2px solid black; */
-	width: 40%;
+
 }
 .hero-text p {
 	padding-bottom: 20px;
