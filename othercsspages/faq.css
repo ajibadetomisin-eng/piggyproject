@@ -82,3 +82,19 @@ nav {
 		border: none;
 	}
 }
+
+.btn {
+	background-color: gold;
+}
+.btn:hover {
+	background-color: goldenrod;
+}
+.accord-wrapper {
+	border: 2px solid red;
+	background-color: crimson;
+}
+
+.accordion-item {
+	border: 2px solid green;
+	margin-bottom: 20px;
+}
