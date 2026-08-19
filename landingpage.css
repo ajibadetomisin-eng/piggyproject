@@ -76,16 +76,13 @@ nav {
 	}
 }
 
-
 .wrapper {
-
 	display: flex;
 	justify-content: space-evenly;
 	padding: 10px;
 	align-items: center;
 }
 .hero-header {
-	
 	width: 40%;
 	margin: 100px auto;
 }
@@ -93,15 +90,12 @@ nav {
 	font-weight: 900;
 	text-align: left;
 	font-size: 3em;
-	
 }
 .hero-text {
 	padding: 20px;
-
 }
 .hero-text p {
 	padding-bottom: 20px;
-	width: 50%;
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -122,4 +116,56 @@ nav {
 	justify-content: center;
 	align-items: center;
 	gap: 1.4em;
+}
+
+@media (max-width: 1440px) {
+	
+	.wrapper {
+		
+		justify-content: space-between;
+		width: 80%;
+		margin: auto;
+	}
+	.hero-header {
+		width: 50%;
+	}
+}
+@media (max-width: 1292px) {
+	.wrapper {
+		flex-direction: column;
+	}
+	.hero-header {
+		width: 100%;
+		padding-left: 50px;
+	}
+	.btn-wrapper {
+		gap: 1em;
+	}
+	.hero-header {
+		margin: 50px auto;
+	}
+}
+
+@media (max-width: 618px) {
+	.hero-text p {
+		display: none;
+	}
+}
+
+@media (max-width: 571px) {
+	.wrapper {
+		width: 100%;
+	}
+	.hero-header h1 {
+		font-size: 2em;
+	}
+}
+
+@media (max-width: 381px) {
+	.hero-header {
+		padding-left: 20px;
+	}
+	.btn-wrapper button {
+		padding: 8px 10px;
+	}
 }
