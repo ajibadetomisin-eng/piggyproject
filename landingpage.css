@@ -75,3 +75,59 @@ nav {
 		border: none;
 	}
 }
+
+.hero-sect {
+	/* border: 2px solid black; */
+}
+.wrapper {
+	/* border: 2px solid red; */
+	display: flex;
+	justify-content: space-evenly;
+	padding: 10px;
+	align-items: center;
+}
+.hero-header {
+	/* border: 2px solid red; */
+	width: 40%;
+	margin: 100px auto;
+}
+.hero-header h1 {
+	font-weight: 900;
+	text-align: left;
+	font-size: 3em;
+	/* padding: 2rem 1rem; */
+	/* width: 55%; */
+	/* display: flex; */
+	/* flex-wrap: wrap; */
+	/* border: 2px solid crimson; */
+	/* width: 0%; */
+}
+.hero-text {
+	padding: 20px;
+	/* border: 2px solid black; */
+	width: 40%;
+}
+.hero-text p {
+	padding-bottom: 20px;
+	width: 50%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.btn-wrapper {
+	display: flex;
+	gap: 2em;
+}
+.btn-wrapper button {
+	background-color: blue;
+	padding: 12px 18px;
+	border: none;
+	border-radius: 8px;
+	color: white;
+	text-align: center;
+}
+.btn-wrapper img {
+	display: inline;
+	justify-content: center;
+	align-items: center;
+	gap: 1.4em;
+}
